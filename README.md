@@ -1,12 +1,13 @@
-# microservices
+# Microservices
+
 Microservices Materials
 
 ## White Papers
 
-[Fallacies of Distributed Computing Explained](./wp/wp-08fallacies-distributedcomputing.pdf)
+* [Fallacies of Distributed Computing Explained](./wp/wp-08fallacies-distributedcomputing.pdf)
 
-Source : Cirrus Minor Papers
+   Source : Cirrus Minor Papers
 
-<https://arnon.me/presentations-papers-articles/>
+   <https://arnon.me/presentations-papers-articles/>
 
-<http://www.rgoarchitects.com/Files/fallacies.pdf>
+   <http://www.rgoarchitects.com/Files/fallacies.pdf>
