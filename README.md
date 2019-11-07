@@ -43,6 +43,25 @@ Microservices Materials
 
    $ kubectl version
 
+* Generate the Project
 
+   $ mvn archetype:generate -DinteractiveMode=false \
+    -DarchetypeGroupId=io.helidon.archetypes \
+    -DarchetypeArtifactId=helidon-quickstart-se \
+    -DarchetypeVersion=1.3.1 \
+    -DgroupId=io.helidon.examples \
+    -DartifactId=helidon-quickstart-se \
+    -Dpackage=io.helidon.examples.quickstart.se
+    
 
+* Push Image to OCIR
 
+   $ docker login iad.ocir.io
+
+   > user: (Object Storage Namespace from Tenancy)/oracleidentitycloudservice/(username)
+
+   > pass: Oauth Token
+
+   $ docker tag helidon-quickstart-se:latest iad.ocir.io/(Object Storage Namespace from Tenancy)/repo1/helidon-quickstart-se:latest
+
+   $ docker push iad.ocir.io/(Object Storage Namespace from Tenancy)/repo1/helidon-quickstart-se:latest
