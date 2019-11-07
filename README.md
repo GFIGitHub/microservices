@@ -15,6 +15,9 @@ Microservices Materials
 
 ## Instructions
 
+* [Getting started with the OCI Command Line Interface (CLI)](https://oracle.github.io/learning-library/oci-library/DevOps/OCI_CLI/OCI_CLI_HOL.html)
+
+
 * Install Java
 
    $ sudo yum -y install java
