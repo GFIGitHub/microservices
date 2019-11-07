@@ -17,6 +17,7 @@ Microservices Materials
 
 * [Getting started with the OCI Command Line Interface (CLI)](https://oracle.github.io/learning-library/oci-library/DevOps/OCI_CLI/OCI_CLI_HOL.html)
 
+* [user API key](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm#How)
 
 * Install Java
 
