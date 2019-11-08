@@ -88,6 +88,8 @@ Microservices Materials
    
    helidon-quickstart-se   latest              5627ae70175d        2 minutes ago       190MB
    
+* Check 
+   
 * Push Image to OCIR
 
    $ docker login iad.ocir.io
