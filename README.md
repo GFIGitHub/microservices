@@ -74,7 +74,20 @@ Microservices Materials
    $ curl -X GET http://localhost:8080/greet
    
    $ curl -X GET http://localhost:8080/greet/Juju
+   
+* Build Docker / Container Image
 
+   $ cd helidon-quickstart-se
+   $ sudo docker build -t helidon-quickstart-se .
+   
+* Check Docker Repo
+
+   $ sudo docker images
+   
+   REPOSITORY              TAG                 IMAGE ID            CREATED             SIZE
+   
+   helidon-quickstart-se   latest              5627ae70175d        2 minutes ago       190MB
+   
 * Push Image to OCIR
 
    $ docker login iad.ocir.io
