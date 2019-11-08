@@ -61,7 +61,19 @@ Microservices Materials
     -DartifactId=helidon-quickstart-se \
     -Dpackage=io.helidon.examples.quickstart.se
 
+* Project Package
 
+   $ mvn package
+   
+* Run Project 
+
+   $ java -jar target/helidon-quickstart-se.jar &
+   
+* Call Microservice
+
+   $ curl -X GET http://localhost:8080/greet
+   
+   $ curl -X GET http://localhost:8080/greet/Juju
 
 * Push Image to OCIR
 
